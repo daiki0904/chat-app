@@ -1,0 +1,74 @@
+.wrapper{
+  display: flex;
+}
+
+.side-bar{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+.side-header{
+  height: 100px;
+  width: 300px;
+  background-color: #253141;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.chat-create a {
+  font-size: 10px;
+  color: deepskyblue;
+  padding: 14px;
+  border: solid 1px skyblue;
+  text-decoration: none;
+}
+.side-name{
+  height: calc(100vh - 100px);
+  width: 300px;
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+.room{
+  padding: 20px 20px 40px 20px;
+}
+
+.room-name a {
+  color: white;
+  text-decoration: none;
+}
+.chat{
+  height: 100vh;
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+.chat-header{
+  height: 100px;
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+
+.chat-messages{
+  height: calc(100vh - 190px);
+  width: calc(100vw - 300px);
+  background-color: #FAFAFA;
+  padding: 40px 40px 0 40px;
+}
+
+.chat-form{
+  height: 90px;
+  width: calc(100vw - 300px);
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
