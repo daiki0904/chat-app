@@ -111,7 +111,7 @@
   color: #434A54;
 }
 
-.chat-form{
+.form{
   height: 90px;
   width: calc(100vw - 300px);
   background-color: #DDDDDD;
@@ -119,21 +119,21 @@
   display: flex;
 }
 
-.input-form{
+.form-input{
   background-color: white;
   display: flex;
   height: 50px;
   width: 100%;
 }
 
-.message-form{
+.form-message{
   padding-left: 10px;
   border: none;
   height: 100%;
   width: 100%;
 }
 
-.message-submit{
+.form-submit{
   height: 50px;
   background-color: #38AEF0;
   padding: 0 20px;
